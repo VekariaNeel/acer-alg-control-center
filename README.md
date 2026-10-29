@@ -1,9 +1,44 @@
 # Acer ALG Control Center for Fedora
 
-A native GTK application for monitoring and controlling the Acer Aspire Lite
-AL15G-52 on Fedora. Version **0.5.1** provides fan controls, performance
-profiles, keyboard backlight color and brightness, and FlexiCharger battery
-limits, alongside system monitoring.
+**Your laptop controls, together in one place.**
+
+A native Linux application for monitoring and controlling the supported Acer
+Aspire Lite AL15G-52 on Fedora.
+
+**Current version: 0.5.1** · [Get started](#easy-installation-guide) ·
+[Check compatibility](#compatibility) · [Troubleshooting](#troubleshooting)
+
+![Control Center 0.5.1 keyboard backlight screen showing the color palette](screenshots/keyboard-backlight.png)
+
+*Preview with simulated device data. The selected keyboard color is a preview
+until you click Apply.*
+
+<details>
+<summary>See the compact window preview</summary>
+
+![Control Center 0.5.1 keyboard backlight in a compact window](screenshots/keyboard-backlight-compact.png)
+
+</details>
+
+## What you can do
+
+- **System:** view device readings and manage supported fan and performance controls.
+- **Keyboard Backlight:** choose from 36 colors, use the hue slider or a custom RGB color, and adjust brightness.
+- **FlexiCharger:** view the battery level and set available charging limits.
+
+Controls depend on the interfaces detected on your machine. See the
+[compatibility details](#compatibility) before installing.
+
+## Release 0.5.1
+
+This repository contains the **0.5.1** Linux source release. It includes the
+GTK application, Fedora setup scripts, and the source for the model-specific
+driver. The driver is built locally for your running kernel during setup.
+Version 0.5.1 adds the expanded keyboard color palette and custom color picker.
+See the [release notes](RELEASE_NOTES.md) for details.
+
+To get the files, use **Code → Download ZIP** on GitHub and follow the
+[installation guide](#easy-installation-guide) below.
 
 **Read the compatibility table before installing.** The Acer ALG name covers
 multiple hardware configurations. A matching product name by itself does not
