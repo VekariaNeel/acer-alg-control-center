@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+script_dir=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+if [ -f "$script_dir/main.py" ]; then
+    exec /usr/bin/python3 "$script_dir/main.py" "$@"
+fi
+if [ -f /opt/control-center-clone/main.py ]; then
+    exec /usr/bin/python3 /opt/control-center-clone/main.py "$@"
+fi
+printf '%s\n' 'Control Center is not installed. From the extracted folder, run: sudo bash install-fedora.sh' >&2
+exit 1

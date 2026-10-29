@@ -1,0 +1,61 @@
+window { background: #0d1118; color: #e8edf5; font-family: Cantarell, sans-serif; font-size: 14px; }
+headerbar { background: #0d1118; border-bottom: 1px solid #232a35; box-shadow: none; min-height: 48px; }
+headerbar .title { font-size: 14px; }
+headerbar windowcontrols button { background: transparent; border-color: transparent; padding: 4px; min-width: 26px; min-height: 26px; border-radius: 7px; }
+headerbar windowcontrols button:hover { background: #273244; }
+.rail { background: #121720; border-right: 1px solid #252d39; padding: 26px 16px 20px; }
+.brand-mark { background: #8ce6d4; color: #102821; border-radius: 12px; padding: 9px 13px; font-size: 22px; font-weight: 900; }
+.brand { font-size: 18px; font-weight: 800; letter-spacing: -0.5px; }
+.eyebrow { color: #7f90a7; font-size: 10px; font-weight: 800; letter-spacing: 1.7px; }
+.rail .eyebrow { margin-top: 30px; margin-bottom: 8px; margin-left: 12px; }
+.nav { background: transparent; background-image: none; border: 1px solid transparent; box-shadow: none; border-radius: 12px; padding: 14px 12px; color: #8f9db0; }
+.nav:hover { background: #1a2230; color: #e8edf5; }
+.nav:checked { background: #20332f; border-color: #34534b; color: #a8f0df; }
+.nav-title { font-size: 13px; font-weight: 700; }
+.nav-description { color: #819087; font-size: 11px; margin-top: 3px; }
+.device { background: #191f2a; border: 1px solid #2b3442; border-radius: 12px; padding: 16px; }
+.device-title { font-size: 12px; font-weight: 700; }
+.device-note { color: #8797ad; font-size: 11px; }
+.title { font-size: 31px; font-weight: 800; letter-spacing: -1px; }
+.subtitle { color: #91a0b5; font-size: 13px; }
+.card { background: #171e29; border: 1px solid #2a3443; border-radius: 16px; padding: 21px; }
+.card-title { font-size: 15px; font-weight: 700; }
+.metric { background: linear-gradient(135deg, #1c2834, #171e29); }
+.metric-value { color: #f3f7fc; font-size: 32px; font-weight: 800; letter-spacing: -0.8px; margin-top: 6px; margin-bottom: 4px; }
+.metric-detail { color: #95a5b9; font-size: 12px; }
+.accent { color: #97ebd7; }
+.badge { color: #98ebd6; background: #1d3831; border: 1px solid #355a4e; border-radius: 20px; padding: 6px 12px; font-size: 11px; font-weight: 700; }
+.section-title { color: #dce6f4; font-size: 16px; font-weight: 700; }
+.group { margin-top: 2px; }
+.group > title { padding: 14px 4px; }
+.statusbar { background: #121821; border-top: 1px solid #252e3c; padding: 12px 22px; }
+.status { color: #98a9bf; font-size: 12px; }
+.error { color: #ffb0a5; }
+button { background: #273244; background-image: none; color: #e5eefb; border: 1px solid #3a485e; border-radius: 9px; box-shadow: none; padding: 9px 15px; font-weight: 600; }
+button:hover { background: #334259; border-color: #62748d; }
+button:active { background: #40546d; }
+button.primary { background: #9ae7d5; border-color: #9ae7d5; color: #102b24; }
+button.primary:hover { background: #bcf6e8; }
+button:disabled { opacity: 0.4; }
+button.flat { background: transparent; border-color: #303a49; padding: 7px 12px; }
+button.palette-swatch { padding: 3px; min-width: 18px; min-height: 22px; border-radius: 7px; border: 2px solid transparent; }
+button.palette-swatch:hover { border-color: #8c9bb0; }
+button.palette-swatch.selected { border-color: #ffffff; background: #4e637c; }
+.hue-slider { padding: 7px 8px; }
+.hue-slider trough { min-height: 8px; border-radius: 8px; background: linear-gradient(to right, #ff0000, #ffff00, #00ff00, #00ffff, #0000ff, #ff00ff, #ff0000); }
+.hue-slider highlight { background: transparent; }
+.hue-slider slider { background: #ffffff; border: 2px solid #17212d; border-radius: 12px; min-width: 17px; min-height: 17px; box-shadow: 0 0 0 1px #ffffff; }
+entry, spinbutton, dropdown > button { background: #101721; color: #e8eff8; border: 1px solid #354257; border-radius: 9px; min-height: 34px; }
+entry { padding: 4px 12px; }
+entry:focus-within, spinbutton:focus-within { border-color: #91dbc9; }
+spinbutton button { background: transparent; border: none; border-radius: 7px; padding: 5px 10px; }
+spinbutton text { padding: 4px 10px; }
+dropdown > button { padding: 6px 12px; }
+popover contents { background: #1b2432; color: #e8eff8; border: 1px solid #3a485c; border-radius: 12px; }
+checkbutton { padding: 6px 0; }
+checkbutton check:checked { background: #9ae7d5; color: #102b24; border-color: #9ae7d5; }
+textview, textview text { background: #101721; color: #a9bbd1; font-size: 12px; }
+textview { padding: 12px; border-radius: 10px; }
+scrollbar { background: transparent; }
+scrollbar slider { min-width: 5px; border-radius: 10px; background: #354155; }
+separator { background: #293345; min-height: 1px; }

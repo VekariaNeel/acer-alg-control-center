@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Control Center Clone
+Comment=Linux hardware monitoring and supported laptop controls
+Exec=/usr/local/bin/control-center-clone
+TryExec=/usr/local/bin/control-center-clone
+Icon=preferences-system
+Terminal=false
+Categories=Settings;HardwareSettings;System;
+Keywords=Acer;Fan;Battery;Keyboard;Performance;
+StartupNotify=true
